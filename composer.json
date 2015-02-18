@@ -1,0 +1,14 @@
+{
+    "name": "falkirks/phpDocScraper",
+    "license": "MIT",
+    "require": {
+        "cangelis/pdf": "2.1.*",
+        "league/climate": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpdoc\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
